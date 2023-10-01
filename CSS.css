@@ -1,0 +1,137 @@
+nav img {
+    max-width: 60px;
+    max-height: 60px;
+    object-fit: scale-down;
+    border-radius: 50%;
+}
+
+main {
+    text-align: center;
+}
+
+#codes {
+    width: 75%;
+    min-height: 290px;
+    min-width: 180px;
+    border-radius: 16px;
+    border: 3px solid rgb(0, 155, 182);
+    margin-top: 30px;
+    background-color: aliceblue;
+    font-family: monospace;
+    padding: 5px;
+    font-size: 20px;
+    outline: 0px;
+}
+
+#button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#button button {
+    width: 200px;
+    border-radius: 12px;
+    margin-top: 15px;
+    border: 0px;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+#delete {
+    background-color: tomato;
+    color: whitesmoke;
+    font-family: serif;
+    font-size: 20px;
+    outline: 0px;
+    cursor: pointer;
+}
+
+#run {
+    background-color: rgb(54, 177, 164);
+    color: black;
+    font-family: serif;
+    font-size: 20px;
+    outline: 0px;
+    cursor: pointer;
+}
+
+#result {
+    padding-top: 27.5px;
+    width: 90px;
+    height: 90px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0px;
+    border-radius: 50%;
+    background-color: rgb(41, 181, 206);
+    font-size: 21px;
+    font-family: initial;
+    font-weight: bold;
+}
+#run:hover{
+    background-color: rgb(43, 150, 91);
+}
+#delete:hover{
+    background-color: brown;
+}
+#result-js {
+    max-width: 75%;
+    min-height: 290px;
+    border-radius: 16px;
+    border: 3px solid rgb(0, 155, 182);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(222, 232, 240);
+    padding: 5px;
+    font-size: 20px;
+}
+#change{
+    margin-top: 0px;
+    height: 60px;
+    background-color: rgb(197, 231, 197);
+    border-radius: 3px;
+    padding: 10px;  
+}
+#changeTR{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+#Arabic{
+    float: right;
+    margin-left: 10px;
+    border: 0px;
+    width: 70px;
+    height: 40px;
+    padding: 5px;
+    outline: 0px;
+    border-radius: 7px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(46, 158, 228);
+}
+#English {
+    float: right;
+    margin-left: 10px;
+    border: 0px;
+    width: 80px;
+    height: 40px;
+    padding: 5px;
+    outline: 0px;
+    border-radius: 7px;
+    font-size: 18px;
+    background-color: rgb(240, 216, 2);
+    color: black;
+}
+#English:hover {
+    background-color: rgb(241, 241, 28);
+    border: 2px solid rgba(0, 0, 0, 0.527);
+}
+#Arabic:hover {
+    background-color: rgb(43, 174, 255);
+    border: 2px solid rgba(0, 0, 0, 0.527);
+}
